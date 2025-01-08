@@ -1,0 +1,14 @@
+#include "KadaiFactory.h"
+
+#include <Kadai/0101/Kadai_0101.h>
+
+IKadai* KadaiFactory::GetKadai(const std::string& _kadaiNum)
+{
+    if (_kadaiNum == "0101")
+    {
+        return new Kadai_0101();
+    }
+
+
+    return nullptr;
+}

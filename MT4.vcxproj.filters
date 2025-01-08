@@ -16,10 +16,36 @@
     <Filter Include="Math">
       <UniqueIdentifier>{26d95407-6e73-4f72-a25e-f3019986bb7d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Kadai">
+      <UniqueIdentifier>{1f6650b8-6616-48e3-9c22-19ac52ac714c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kadai\0101">
+      <UniqueIdentifier>{1af86ec0-eddb-4efe-8289-7118712ba3f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kadai\Factory">
+      <UniqueIdentifier>{17d8bcd0-a0f9-4a38-8afb-17f3e1eb0531}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MT4.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="Kadai\Factory\KadaiFactory.cpp">
+      <Filter>Kadai\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Kadai\0101\Kadai_0101.cpp">
+      <Filter>Kadai\0101</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Kadai\0101\Kadai_0101.h">
+      <Filter>Kadai\0101</Filter>
+    </ClInclude>
+    <ClInclude Include="Kadai\IKadai.h">
+      <Filter>Kadai</Filter>
+    </ClInclude>
+    <ClInclude Include="Kadai\Factory\KadaiFactory.h">
+      <Filter>Kadai\Factory</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
