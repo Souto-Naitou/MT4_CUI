@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MT4", "MT4.vcxproj", "{CC59DA9C-EFE1-4A82-96BB-C16C7473B2D9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VecMat", "Externals\VectorMatrix\Project\VecMat.vcxproj", "{A87AD77F-CC08-4788-8630-68470354FCD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{CC59DA9C-EFE1-4A82-96BB-C16C7473B2D9}.Release|x64.Build.0 = Release|x64
 		{CC59DA9C-EFE1-4A82-96BB-C16C7473B2D9}.Release|x86.ActiveCfg = Release|Win32
 		{CC59DA9C-EFE1-4A82-96BB-C16C7473B2D9}.Release|x86.Build.0 = Release|Win32
+		{A87AD77F-CC08-4788-8630-68470354FCD3}.Debug|x64.ActiveCfg = Debug|x64
+		{A87AD77F-CC08-4788-8630-68470354FCD3}.Debug|x64.Build.0 = Debug|x64
+		{A87AD77F-CC08-4788-8630-68470354FCD3}.Debug|x86.ActiveCfg = Debug|x64
+		{A87AD77F-CC08-4788-8630-68470354FCD3}.Debug|x86.Build.0 = Debug|x64
+		{A87AD77F-CC08-4788-8630-68470354FCD3}.Release|x64.ActiveCfg = Release|x64
+		{A87AD77F-CC08-4788-8630-68470354FCD3}.Release|x64.Build.0 = Release|x64
+		{A87AD77F-CC08-4788-8630-68470354FCD3}.Release|x86.ActiveCfg = Release|x64
+		{A87AD77F-CC08-4788-8630-68470354FCD3}.Release|x86.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
