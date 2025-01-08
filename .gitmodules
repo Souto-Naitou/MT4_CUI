@@ -1,0 +1,3 @@
+[submodule "Externals/VectorMatrix"]
+	path = Externals/VectorMatrix
+	url = https://github.com/Souto-Naitou/VectorMatrix.git
