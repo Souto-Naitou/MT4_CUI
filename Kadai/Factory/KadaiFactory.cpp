@@ -1,6 +1,7 @@
 #include "KadaiFactory.h"
 
 #include <Kadai/0101/Kadai_0101.h>
+#include <Kadai/ErrorPage/Kadai_ErrorPage.h>
 
 IKadai* KadaiFactory::GetKadai(const std::string& _kadaiNum)
 {
@@ -10,5 +11,5 @@ IKadai* KadaiFactory::GetKadai(const std::string& _kadaiNum)
     }
 
 
-    return nullptr;
+    return new Kadai_ErrorPage();
 }

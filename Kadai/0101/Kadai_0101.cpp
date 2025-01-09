@@ -18,4 +18,7 @@ void Kadai_0101::Run()
         }
         printf("\n");
     }
+
+    printf("\n");
+    return;
 }

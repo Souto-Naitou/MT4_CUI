@@ -25,6 +25,9 @@
     <Filter Include="Kadai\Factory">
       <UniqueIdentifier>{17d8bcd0-a0f9-4a38-8afb-17f3e1eb0531}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Kadai\ErrorPage">
+      <UniqueIdentifier>{6574f4ee-2afa-4c08-ae71-222898894b77}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MT4.cpp">
@@ -36,6 +39,9 @@
     <ClCompile Include="Kadai\0101\Kadai_0101.cpp">
       <Filter>Kadai\0101</Filter>
     </ClCompile>
+    <ClCompile Include="Kadai\ErrorPage\Kadai_ErrorPage.cpp">
+      <Filter>Kadai\ErrorPage</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Kadai\0101\Kadai_0101.h">
@@ -46,6 +52,9 @@
     </ClInclude>
     <ClInclude Include="Kadai\Factory\KadaiFactory.h">
       <Filter>Kadai\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Kadai\ErrorPage\Kadai_ErrorPage.h">
+      <Filter>Kadai\ErrorPage</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -138,6 +138,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Kadai\0101\Kadai_0101.cpp" />
+    <ClCompile Include="Kadai\ErrorPage\Kadai_ErrorPage.cpp" />
     <ClCompile Include="Kadai\Factory\KadaiFactory.cpp" />
     <ClCompile Include="MT4.cpp" />
   </ItemGroup>
@@ -148,6 +149,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Kadai\0101\Kadai_0101.h" />
+    <ClInclude Include="Kadai\ErrorPage\Kadai_ErrorPage.h" />
     <ClInclude Include="Kadai\Factory\KadaiFactory.h" />
     <ClInclude Include="Kadai\IKadai.h" />
   </ItemGroup>
