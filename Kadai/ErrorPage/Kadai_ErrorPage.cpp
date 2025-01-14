@@ -1,19 +1,19 @@
-#include "Kadai_ErrorPage.h"
+ï»¿#include "Kadai_ErrorPage.h"
 
 #include <iostream>
 
 void Kadai_ErrorPage::Run()
 {
-    std::cout << "[‰Û‘èƒGƒ‰[]" << std::endl;
-    std::cout << "\t“ü—Í‚³‚ê‚½‰Û‘è”Ô†‚Í‘¶Ý‚µ‚Ü‚¹‚ñB" << std::endl;
-    std::cout << "\t‰Û‘è”Ô†‚ðŠm”F‚µAÄ“xŽÀs‚µ‚Ä‚­‚¾‚³‚¢B" << std::endl;
+    std::cout << "[èª²é¡Œã‚¨ãƒ©ãƒ¼]" << std::endl;
+    std::cout << "\tå…¥åŠ›ã•ã‚ŒãŸèª²é¡Œç•ªå·ã¯å­˜åœ¨ã—ã¾ã›ã‚“ã€‚" << std::endl;
+    std::cout << "\tèª²é¡Œç•ªå·ã‚’ç¢ºèªã—ã€å†åº¦å®Ÿè¡Œã—ã¦ãã ã•ã„ã€‚" << std::endl;
 
-    std::endl(std::cout);
+    std::cout << std::endl;
 
-    std::cout << "[‰Û‘è”Ô†‚ÌŒ`Ž®‚É‚Â‚¢‚Ä]" << std::endl;
-    std::cout << "\t01_01‚Ì‚æ‚¤‚È‰Û‘è”Ô†‚©‚ç" << std::endl;
-    std::cout << "\tƒAƒ“ƒ_[ƒXƒRƒA‚ðœ‚­”Žš4Œ…‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B" << std::endl;
-    std::cout << "\t—á: 0101" << std::endl;
+    std::cout << "[èª²é¡Œç•ªå·ã®å½¢å¼ã«ã¤ã„ã¦]" << std::endl;
+    std::cout << "\t01_01ã®ã‚ˆã†ãªèª²é¡Œç•ªå·ã‹ã‚‰" << std::endl;
+    std::cout << "\tã‚¢ãƒ³ãƒ€ãƒ¼ã‚¹ã‚³ã‚¢ã‚’é™¤ãæ•°å­—4æ¡ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚" << std::endl;
+    std::cout << "\tä¾‹: 0101" << std::endl;
 
-    std::endl(std::cout);
+    std::cout << std::endl;
 }

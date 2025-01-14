@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 
 #include <Kadai/Factory/KadaiFactory.h>
+#include <locale>
 
 int main()
 {

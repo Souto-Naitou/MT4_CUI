@@ -2,4 +2,4 @@
 
 #include <Kadai/IKadai.h>
 
-NEWKADAI(0101)
+NEWKADAI(0102)

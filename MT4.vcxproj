@@ -47,10 +47,10 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <UseDebugLibraries>false</UseDebugLibraries>
+    <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -122,12 +122,14 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
-      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <Optimization>Disabled</Optimization>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -138,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Kadai\0101\Kadai_0101.cpp" />
+    <ClCompile Include="Kadai\0102\Kadai_0102.cpp" />
     <ClCompile Include="Kadai\ErrorPage\Kadai_ErrorPage.cpp" />
     <ClCompile Include="Kadai\Factory\KadaiFactory.cpp" />
     <ClCompile Include="MT4.cpp" />
@@ -148,7 +151,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Helper\MatrixHelper.hpp" />
     <ClInclude Include="Kadai\0101\Kadai_0101.h" />
+    <ClInclude Include="Kadai\0102\Kadai_0102.h" />
     <ClInclude Include="Kadai\ErrorPage\Kadai_ErrorPage.h" />
     <ClInclude Include="Kadai\Factory\KadaiFactory.h" />
     <ClInclude Include="Kadai\IKadai.h" />
