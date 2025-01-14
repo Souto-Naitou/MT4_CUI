@@ -139,8 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Helper\PrintHelper.cpp" />
     <ClCompile Include="Kadai\0101\Kadai_0101.cpp" />
     <ClCompile Include="Kadai\0102\Kadai_0102.cpp" />
+    <ClCompile Include="Kadai\0103\Kadai_0103.cpp" />
     <ClCompile Include="Kadai\ErrorPage\Kadai_ErrorPage.cpp" />
     <ClCompile Include="Kadai\Factory\KadaiFactory.cpp" />
     <ClCompile Include="MT4.cpp" />
@@ -151,9 +153,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Helper\MatrixHelper.hpp" />
+    <ClInclude Include="Helper\PrintHelper.h" />
     <ClInclude Include="Kadai\0101\Kadai_0101.h" />
     <ClInclude Include="Kadai\0102\Kadai_0102.h" />
+    <ClInclude Include="Kadai\0103\Kadai_0103.h" />
     <ClInclude Include="Kadai\ErrorPage\Kadai_ErrorPage.h" />
     <ClInclude Include="Kadai\Factory\KadaiFactory.h" />
     <ClInclude Include="Kadai\IKadai.h" />

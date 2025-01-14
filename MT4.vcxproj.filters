@@ -31,6 +31,12 @@
     <Filter Include="Kadai\0102">
       <UniqueIdentifier>{4b466550-a79f-414a-88f8-8e22c62a14c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Kadai\0103">
+      <UniqueIdentifier>{d984ca3a-ee17-4c04-bc6d-99c4e82a7921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{93b1d301-a46c-4175-b59d-5dec70682bbf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MT4.cpp">
@@ -47,6 +53,12 @@
     </ClCompile>
     <ClCompile Include="Kadai\0102\Kadai_0102.cpp">
       <Filter>Kadai\0102</Filter>
+    </ClCompile>
+    <ClCompile Include="Kadai\0103\Kadai_0103.cpp">
+      <Filter>Kadai\0103</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\PrintHelper.cpp">
+      <Filter>Helper</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -65,8 +77,11 @@
     <ClInclude Include="Kadai\0102\Kadai_0102.h">
       <Filter>Kadai\0102</Filter>
     </ClInclude>
-    <ClInclude Include="Helper\MatrixHelper.hpp">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="Kadai\0103\Kadai_0103.h">
+      <Filter>Kadai\0103</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\PrintHelper.h">
+      <Filter>Helper</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,9 +1,4 @@
-#pragma once
-
-#include <iostream>
-#include <iomanip>
-#include <Matrix4x4.h>
-#include <string>
+#include "PrintHelper.h"
 
 void MatrixPrintf(const std::string& _name, const Matrix4x4& _matrix)
 {
@@ -18,5 +13,12 @@ void MatrixPrintf(const std::string& _name, const Matrix4x4& _matrix)
     }
     printf("\n");
 
+    return;
+}
+
+void QuaternionPrintf(const std::string& _name, const Quaternion& _quaternion)
+{
+    printf("%s\n", _name.c_str());
+    printf("    %.2f %.2f %.2f %.2f\n", _quaternion.x, _quaternion.y, _quaternion.z, _quaternion.w);
     return;
 }
