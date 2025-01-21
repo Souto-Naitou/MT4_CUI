@@ -40,6 +40,9 @@
     <Filter Include="Kadai\0104">
       <UniqueIdentifier>{a50efe17-0a2c-4817-a37a-4a70f116457a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Kadai\0105">
+      <UniqueIdentifier>{7121fd5c-6448-45d3-9316-27d662ef428c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MT4.cpp">
@@ -64,6 +67,9 @@
       <Filter>Helper</Filter>
     </ClCompile>
     <ClCompile Include="Kadai\0104\Kadai_0104.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Kadai\0105\Kadai_0105.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
@@ -91,6 +97,9 @@
     </ClInclude>
     <ClInclude Include="Kadai\0104\Kadai_0104.h">
       <Filter>Kadai\0104</Filter>
+    </ClInclude>
+    <ClInclude Include="Kadai\0105\Kadai_0105.h">
+      <Filter>Kadai\0105</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

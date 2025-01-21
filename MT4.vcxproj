@@ -144,6 +144,7 @@
     <ClCompile Include="Kadai\0102\Kadai_0102.cpp" />
     <ClCompile Include="Kadai\0103\Kadai_0103.cpp" />
     <ClCompile Include="Kadai\0104\Kadai_0104.cpp" />
+    <ClCompile Include="Kadai\0105\Kadai_0105.cpp" />
     <ClCompile Include="Kadai\ErrorPage\Kadai_ErrorPage.cpp" />
     <ClCompile Include="Kadai\Factory\KadaiFactory.cpp" />
     <ClCompile Include="MT4.cpp" />
@@ -159,6 +160,7 @@
     <ClInclude Include="Kadai\0102\Kadai_0102.h" />
     <ClInclude Include="Kadai\0103\Kadai_0103.h" />
     <ClInclude Include="Kadai\0104\Kadai_0104.h" />
+    <ClInclude Include="Kadai\0105\Kadai_0105.h" />
     <ClInclude Include="Kadai\ErrorPage\Kadai_ErrorPage.h" />
     <ClInclude Include="Kadai\Factory\KadaiFactory.h" />
     <ClInclude Include="Kadai\IKadai.h" />
